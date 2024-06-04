@@ -20,23 +20,18 @@ MySQL
 
 Crie um banco de dados MySQL e configure as credenciais no arquivo application.propeties , localizado no diretorio resources:
 
-server:
-  port: 8080
-  error:
-    include-message: always
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: seu_usuario
-    url: jdbc:mysql://localhost:3306/nome_do_seu_banco_de_dados
-    password: sua_senha
-  jpa:
-    hibernate:
-      ddl-auto: update 
-    show-sql: true
-    open-in-view: true
+spring.datasource.url=jdbc:mysql://localhost:3306/nome_do_seu_banco_de_dados
+spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-  
+# Configuração para mostrar o SQL no console
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.open-in-view=true
+spring.jpa.hibernate.ddl-auto=update
+
+
 ## Executando a Aplicação
 
 Clone o repositório:
