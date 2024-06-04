@@ -28,7 +28,6 @@ spring.datasource.password=sua_senha
 
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-# Configuração para mostrar o SQL no console
 spring.jpa.show-sql=true
 
 spring.jpa.properties.hibernate.format_sql=true
