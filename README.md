@@ -23,23 +23,32 @@ Crie um banco de dados MySQL e configure as credenciais no arquivo application.y
 
 server:
   port: 8080
+  
   error:
+  
     include-message: always
 
 
 spring:
   datasource:
+  
     driver-class-name: com.mysql.cj.jdbc.Driver
+    
     username: seu_usuario
+    
     url: jdbc:mysql://localhost:3306/nome_do_seu_banco_de_dados
+    
     password: sua_senha
 
     
   jpa:
     hibernate:
       ddl-auto: update
+      
     show-sql: true
+    
     open-in-view: true
+  
 
 
 ## Executando a Aplicação
