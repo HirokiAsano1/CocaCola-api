@@ -16,7 +16,10 @@ Maven
 
 MySQL
 
+Para executar a aplicação no Visual Studio Code, você precisa instalar a extensão "Debugger for Java"
+
 ## Configuração do Banco de Dados
+Obs : O banco está hospedado temporariamente , se a hospegagem terminar ou se optar usar seu propio banco de dados , utilize esses passo a passo :
 
 Crie um banco de dados MySQL e configure as credenciais no arquivo application.propeties , localizado no diretorio resources:
 
@@ -36,6 +39,12 @@ spring.jpa.open-in-view=true
 
 spring.jpa.hibernate.ddl-auto=update
 
+## Hospedagem 
+A aplicação está hospedada temporariamente no seguinte link:
+
+https://cocacola-api-production.up.railway.app
+
+Caso a hospedagem tenha terminado, utilize http://localhost:8080.
 
 
 ## Executando a Aplicação
@@ -49,7 +58,7 @@ git clone https://github.com/HirokiAsano1/CocaCola-api.git
 Navegue até o diretório do projeto:
 
 
-cd seu-repositorio
+cd price-management-api
 
 
 Compile e execute a aplicação
@@ -91,13 +100,12 @@ Compile e execute a aplicação
 
 * URL: /clients/{clienteId}/add/produtos
 * Método: Post
-*  Corpo:
+*  Corpo:"produtoId" e "quantidade"
 
 *Obter produtos cadastrados aos clientes*
 
 * URL: /clients/{clienteId}/produtos
 * Método: GET
-* Corpo:
 
 *Deletar produtos cadastrados a Clientes*
 
