@@ -34,9 +34,6 @@ public class Product {
 
     private double price;
 
-    @ManyToOne
-    @JoinColumn(name = "region_id")
-    private Region region;
 
 
 }
