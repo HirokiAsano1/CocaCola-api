@@ -24,13 +24,13 @@ public class Product {
 
     private String name;
 
-    private String category;
+    private Long category;
 
     private Integer quantity_ml;
 
-    private Integer stock_quantity;
+    private Long stock_quantity;
 
-    private Integer stock_Max;
+    private Long stock_Max;
 
     private double price;
 
