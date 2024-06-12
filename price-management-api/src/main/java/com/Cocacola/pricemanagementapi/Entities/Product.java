@@ -24,7 +24,7 @@ public class Product {
 
     private String name;
 
-    private Integer quantity_ml;
+    private Long quantity_ml;
 
     private Long stock_quantity;
 
