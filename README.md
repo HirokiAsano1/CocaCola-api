@@ -1,6 +1,6 @@
 # PROJETO SolarCocaCola
-
-Este projeto é uma aplicação Spring Boot que inclui funcionalidades de CRUD para clientes, CRUD Para Produtos , CRUD Para Promoções e relacionamento das entidades Clientes e Produtos.
+Este repositório trata-se da aplicação Back-End de um projeto fullstack (React, Spring Boot, MySQL) feito em equipe com a mentoria da SolarCocaCola. Nosso objetivo era desenvolver um sistema para gerenciar produtos, clientes e promoções, e seus relacionamentos através de um sistema de CRUD para as entidades.
+Repositório do projeto completo: https://github.com/DaviCalebe/solar-coca-cola
 
 ## Funcionalidades
 
